@@ -1,0 +1,119 @@
+body{
+    background-image:url("C:/xampp/htdocs/Internship/FoodApp/images/food.jpg");
+    background-repeat: no-repeat;
+    background-size: 1500px 720px;
+    background-color: #cccccc;
+}
+
+a.navbar-brand{
+    padding-right: 20px;
+}
+a.navbar-brand span{
+    color: #4ECDC4;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown ul:hover {
+  background-color: #ddd;
+}
+
+.nav-item:hover .dropdown {
+  display: block;
+}
+
+input[type=date] {
+  width: 200px;
+  margin-left: 450px;
+  margin-top: 25px;
+}
+select {
+  width: 250px;
+  padding: 3px 4px;
+  margin-left: 10px;
+  margin-top: 25px;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+
+input[type=submit] {
+    width: 100px;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 5px 5px;
+  text-decoration: none;
+  margin-left: 600px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  background: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  border: 1px solid black;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+input[type=text] {
+  width: 200px;
+  padding: 2px 3px;
+  margin-left: 710px;
+  box-sizing: border-box;
+}
+
+input[type=button] {
+    width: 100px;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 5px 5px;
+  text-decoration: none;
+  margin-left: 10px;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.table-responsive{
+  max-height: 20em;
+}
+
+thead th {
+  position: sticky;
+  text-align: left;
+  padding: 8px;
+  border: 1px solid black;
+  top: 0;
+  background: #00FA9A;
+  z-index: 0;
+}

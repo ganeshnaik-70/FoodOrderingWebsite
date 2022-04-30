@@ -1,0 +1,63 @@
+body{
+    background:url(food.jpg) no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    padding-bottom: 65px;
+}
+
+
+
+.highlight{
+    font-weight: 700;
+    color: rgb(163, 40, 212);
+}
+.contain{
+    text-align: center;
+}
+.list{
+    background-color: black;
+    list-style: none;
+}
+.form-container{
+    background-color: rgba(245, 222, 179, 0.459);
+    width: 25%;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #000;
+    margin: 30px auto;
+}
+.feedback-container{
+    margin-bottom: 204px;
+}
+.issue-form{
+    margin-bottom: 150px;
+}
+.form-width{
+    width: 600px;
+}
+.form-sub{
+    width: 40%;
+    margin: auto;
+}
+.row-alt{
+    display: flex;
+    justify-content: space-between;
+}
+.submit{
+    width: 100%;
+}
+.star i{
+    margin: 0px 9px;
+    color: white;
+    transition: 0.5s ease;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+}
+.star i:hover{
+    color: rgb(233, 229, 15);
+    cursor: pointer;
+}
+@media screen and (max-width: 680px){
+    body{
+        background-size: 100% 100%;
+    }
+}

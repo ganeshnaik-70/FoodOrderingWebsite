@@ -1,0 +1,38 @@
+body{
+    background-color: gray;
+}
+.container{
+    width: 450px;
+    height: 400px;
+    margin: auto;
+    margin-top: 150px;
+    background-color: white;
+}
+.done-img{
+    margin: 30px 180px 0px;
+}
+.status{
+    color: #F16522; 
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+    font-size: 30px; 
+    font-weight: 700; 
+    line-height: 34px;
+    margin-left: 90px;
+    margin-bottom: 50px;
+}
+.status2{
+    color: #464646; 
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+    font-size: 20px; 
+    line-height: 22px;
+    margin-left: 50px;
+}
+.main-link{
+    text-decoration: none;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    border: 1px solid black;
+    padding: 10px 10px;
+    margin-left: 150px;
+    color: rgb(0, 0, 0);
+    background-color: #2af523;
+}
